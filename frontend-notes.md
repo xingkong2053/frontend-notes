@@ -1,4 +1,4 @@
-# 前端面试
+# 前端
 ## javacript
 ### 作用域和变量提升
 ### es6语法
@@ -12,7 +12,10 @@
   - let/const 区别
     - const声明时必须要赋初值
     - let能够重新赋值, const不能重新赋值
-- 对象,数组结构赋值
+- 解构赋值
+  - 数组解构赋值
+  - 对象解构赋值
+  - 字符串解构赋值
 - 字符串拓展
   - 字符的Unicode表示法
   - `at()`
@@ -30,8 +33,21 @@
 - 箭头函数
   - 箭头函数和普通函数的区别: 箭头函数无this也无arguments对象
 - spread和rest传参
-- 数组方法
-- 对象方法
+- 数组方法拓展
+  - `Array.from()`
+  - `Array.of()`
+  - `.copyWithin()`
+  - `.find(), .findIndex()`
+  - `.fill()`
+  - `.entries(), .keys(), .values()`
+  - `.includes()`
+- 对象方法拓展
+  - `Object.is()`
+  - `Object.assign()`
+  - 属性可枚举性
+  - 属性的遍历
+  - `Object.keys(), Object.values(), OBject.entries`
+  - 对象拓展运算符
 - Promise
   - 实例方法
     - `.then`
@@ -46,6 +62,12 @@
   - 如何实现一个Promise
 - async/await
 - Symbol基本类型
+- Set和Map数据结构
+- Proxy
+- Reflect
+- iterator和for...of循环
+- Class
+- 模块
 ### 事件循环
 ## css
 ### bfc
